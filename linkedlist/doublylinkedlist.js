@@ -20,10 +20,9 @@ class DoublyLinkedList {
   setHead(node) {
     // Write your code here.
     if(this.head === null){
-        node.prev = null;
-        node.next = null
         this.head = node;
         this.tail = node;
+        return;
     }
   }
 
