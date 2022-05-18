@@ -173,15 +173,15 @@ class DoublyLinkedList {
 }
 
 
-const node = new Node(1, null, null);
-const node2 = new Node(2, null, null);
-const node3 = new Node(3, null, null);
-const node5 = new Node(5, null, null);
-const node6 = new Node(6, null, null);
-const node0 = new Node(0, null, null);
-const node10 = new Node(10, null, null);
-const node11 = new Node(11, null, null);
-const node12 = new Node(12, null, null);
+const node = new Node(1);
+const node2 = new Node(2);
+const node3 = new Node(3);
+const node5 = new Node(5);
+const node6 = new Node(6);
+const node0 = new Node(0);
+const node10 = new Node(10);
+const node11 = new Node(11);
+const node12 = new Node(12);
 
 const dl = new DoublyLinkedList();
 //dl.setHead(node);
