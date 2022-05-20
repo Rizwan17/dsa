@@ -198,3 +198,4 @@ dl.insertAfter(node3, node6);
 
 dl.insertAfter(node2, node3);
 dl.printNodes();
+
