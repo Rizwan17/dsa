@@ -43,4 +43,6 @@ function isSymmetricHelp(left, right){
     );
 }
 
-console.log(isSymmetric(node));
+const node1 = new Node(10);
+
+console.log(isSymmetric(node1));
