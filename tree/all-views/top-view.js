@@ -60,8 +60,10 @@ function topView(node){
         }
     }
 
-    const keys = Object.keys(ans);
-    keys.sort((a, b) => a - b);
+    // ans = { '0': [ 1, 5, 6 ], '1': [ 3 ], '2': [ 7 ], '-1': [ 2 ], '-2': [ 4 ] }
+
+    const keys = Object.keys(ans); // ['0', '1', '2', '-1', '-2']
+    keys.sort((a, b) => a - b); // [-2, -1, 0, 1, 2]
     for(let x of keys){
         topView.push(ans[x][0]);
     }
