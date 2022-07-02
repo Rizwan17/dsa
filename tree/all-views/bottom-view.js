@@ -29,7 +29,7 @@ node.right.right = new Node(7);
  * 
  * vertical traversal = [[4], [2], [1, 5, 6], [3], [7]]
  * 
- * bottomvIEW = 4 2 6 3 7
+ * bottomView = 4 2 6 3 7
  * 
  * */
 
