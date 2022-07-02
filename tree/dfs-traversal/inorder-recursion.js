@@ -7,6 +7,8 @@ class Node{
 }
 
 /***
+ * inorder traversal is DFS Traversal.
+ * 
  * inorder traversal means Left Tree traversal, Root, then right Tree traversal
  * 
  * Left Root Right
