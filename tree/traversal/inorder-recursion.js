@@ -33,14 +33,23 @@ node.left.right = new Node(5);
 node.right.left = new Node(6);
 node.right.right = new Node(7);
 
-function inorder(node){
+function inorder(node, ans){
     if(node === null) return;
     //1 - complete left tree traversal
-    inorder(node.left);
+    inorder(node.left, ans);
     //2 - print root
-    console.log(node.value);
+    //console.log(node.value);
+    ans.push(node.value);
     //3 - complete right tree traversal
-    inorder(node.right);
+    inorder(node.right, ans);
+}
+
+function main(){
+    const ans = [];
+    inorder(node, ans);
+    return ans;
 }
 
 //inorder(node);
+
+console.log(main());
