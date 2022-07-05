@@ -19,6 +19,7 @@ class Node{
  * 
  * x = 8
  * ceil(8) = 9 { least integer greater than or equal to x }
+ * floor(8) = 6 { greatest integer less than or equal to x }
  * 
  * */ 
 
